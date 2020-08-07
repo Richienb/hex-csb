@@ -1,6 +1,6 @@
 {
 	"name": "hex-csb",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Convert a HEX colour to Scratch CSB.",
 	"repository": "https://github.com/Richienb/hex-csb.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
