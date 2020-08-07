@@ -34,3 +34,7 @@ hexCsb("#FFD800");
 Type: `string`
 
 The HEX code to convert.
+
+## Related
+
+- [csb-hex](https://github.com/Richienb/csb-hex) - Convert a Scratch CSB colour to HEX.
