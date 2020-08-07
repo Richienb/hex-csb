@@ -1,41 +1,36 @@
-# the-module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# hex-csb [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/hex-csb/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/hex-csb)
 
-My awesome module.
+Convert a HEX colour to Scratch CSB.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/hex-csb.png)](https://npmjs.com/package/hex-csb)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install hex-csb
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const hexCsb = require("hex-csb");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+hexCsb("FFFFFF");
+//=> [0, 0, 100]
+
+hexCsb("000000");
+//=> [0, 0, 0]
+
+hexCsb("#FFD800");
+//=> [14, 100, 100]
 ```
 
 ## API
 
-### theModule(input, options?)
+### hexCsb(input)
 
 #### input
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The HEX code to convert.
